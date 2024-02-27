@@ -47,5 +47,6 @@ public class Script : MonoBehaviour
     private void Start()
     {
         rb=gameObject.GetComponent<Rigidbody2D>();
+        rb.velocity 
     }
 }
