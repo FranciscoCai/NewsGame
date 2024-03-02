@@ -8,4 +8,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/PruebaJesus.unity
+    guid: dc96723febad27f46b78f86a105b70dd
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 171e4a858212c714d975ca49d3803c5e
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: c4a129445bd60ef47a62ab73c9deb6b5
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
