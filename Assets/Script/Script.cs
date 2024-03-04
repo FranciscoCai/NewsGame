@@ -3,13 +3,16 @@ using UnityEngine;
 public class Script : Movimiento
 {
     [SerializeField] private GameObject SpaceMovement;
-    [SerializeField] private LayerMask layerMask;
+    [SerializeField] private LayerMask layerMaskBarco;
+    [SerializeField] private LayerMask layerMaskMover;
     [SerializeField] private float Velocity;
     private void OnMouseDown()
     {
         Vector2 clickPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        RaycastHit2D hit = Physics2D.Raycast(clickPosition, Vector2.zero, Mathf.Infinity);
+        RaycastHit2D hit = Physics2D.Raycast(clickPosition, Vector2.zero, Mathf.Infinity,layerMaskBarco);
+        if (hit.collider == null)
+        { return; }
         if (hit.collider.gameObject == this.gameObject)
         {
             SpaceMovement.SetActive(true);
@@ -19,7 +22,7 @@ public class Script : Movimiento
     {
         Vector2 clickPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        RaycastHit2D hit = Physics2D.Raycast(clickPosition, Vector2.zero, Mathf.Infinity, layerMask);
+        RaycastHit2D hit = Physics2D.Raycast(clickPosition, Vector2.zero, Mathf.Infinity, layerMaskMover);
         SpaceMovement.SetActive(false);
         if (hit.collider != null)
         {

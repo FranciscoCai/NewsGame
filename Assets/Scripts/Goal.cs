@@ -6,7 +6,8 @@ public class Goal : MonoBehaviour
 {
    
     public string boats;
-    private int score = 0;
+    public int scoreNeed = 0;
+    private int score = 0;  
     public bool winConditionOne = false;
     
     private void OnCollisionEnter2D(Collision2D collision)
@@ -20,7 +21,7 @@ public class Goal : MonoBehaviour
     }
     public void Update()
     {
-        if(score == 3)
+        if(score == scoreNeed)
         {
             winConditionOne = true;
         }
