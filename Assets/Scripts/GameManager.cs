@@ -10,8 +10,10 @@ public class GameManager : MonoBehaviour
     public Goal goal;
     public bool winConditionTwo = false;
     public bool lose = false;
+    
+    
 
- 
+
     void Update()
     {
         if(goal.winConditionOne == true && winConditionTwo == true)

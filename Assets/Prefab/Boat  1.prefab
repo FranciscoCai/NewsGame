@@ -326,17 +326,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.00000023841858}
+  m_Offset: {x: -0.007317841, y: 0.029271245}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.795, y: 2.165}
+    oldSize: {x: 0.318, y: 0.866}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 2.3011198}
+  m_Size: {x: 0.5023831, y: 0.99853444}
   m_EdgeRadius: 0
 --- !u!50 &6225045790428852567
 Rigidbody2D:
@@ -377,7 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da755ff4606267842b12546456eaf558, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InitialVelocity: 1
+  InitialVelocity: 0.2
   SpaceMovement: {fileID: 5116093652145619564}
   layerMaskBarco:
     serializedVersion: 2
@@ -385,4 +385,4 @@ MonoBehaviour:
   layerMaskMover:
     serializedVersion: 2
     m_Bits: 128
-  Velocity: 1
+  Velocity: 0.1
