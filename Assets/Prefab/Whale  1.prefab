@@ -285,6 +285,7 @@ MonoBehaviour:
   InitialVelocity: 0.3
   Estado: 2
   ObjetoASeguir: {fileID: 0}
+  TiempoDeEspera: 3
 --- !u!50 &372024880456298323
 Rigidbody2D:
   serializedVersion: 4
