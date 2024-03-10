@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ondas_Barcos_0: -5296758278656154075
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

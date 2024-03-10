@@ -11,10 +11,4 @@ public abstract class Movimiento : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
         rb.velocity = transform.up * InitialVelocity;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

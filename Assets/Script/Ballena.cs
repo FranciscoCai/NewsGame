@@ -44,6 +44,7 @@ public class Ballena : Movimiento
             direccion.Normalize();
             rb.velocity = direccion * InitialVelocity;
         }
-        
+        float angle = Mathf.Atan2(rb.velocity.y, rb.velocity.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.AngleAxis(angle-180, Vector3.forward);
     }
 }

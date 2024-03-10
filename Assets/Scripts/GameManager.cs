@@ -10,8 +10,12 @@ public class GameManager : MonoBehaviour
     public Goal goal;
     public bool winConditionTwo = false;
     public bool lose = false;
+    public static GameManager instance;
 
- 
+    private void Awake()
+    {
+        instance = this; 
+    }
     void Update()
     {
         if(goal.winConditionOne == true && winConditionTwo == true)

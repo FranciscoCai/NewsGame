@@ -8,21 +8,19 @@ public class Whales : MonoBehaviour
     public string boats;
     private int Score = 0;
 
-    public GameManager gameManager;
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
         if (collision.gameObject.CompareTag(whales))
         {
             Destroy(collision.gameObject);
-            gameManager.winConditionTwo = true;
+            GameManager.instance.winConditionTwo = true;
         }
 
         if (collision.gameObject.CompareTag(boats))
         {
             Destroy(collision.gameObject);
-            gameManager.lose = true;
+            GameManager.instance.lose = true;
         }
     }
 }
