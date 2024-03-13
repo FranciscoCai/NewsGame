@@ -233,7 +233,7 @@ MonoBehaviour:
   smoothTime: 0.5
   minZoom: 40
   maxZoom: 1
-  zoomLimiter: 50
+  zoomLimiter: 100
 --- !u!114 &2527943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,10 +246,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dac62a86255fa54b9a09cf086cc296a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target1: {fileID: 78416516}
-  target2: {fileID: 1812036435}
+  targets:
+  - {fileID: 78416516}
+  - {fileID: 1812036435}
   minSize: 5
-  maxSize: 100000
+  maxSize: 100
+  paddingDistance: 0.7
   padding: 2
 --- !u!4 &78416516 stripped
 Transform:

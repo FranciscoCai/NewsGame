@@ -15,6 +15,8 @@ public class Goal : MonoBehaviour
        
         if (collision.gameObject.CompareTag(boats))
         {
+            CamaraFollowSize.instance.targets.Remove(collision.transform);
+            CameraFollowBoats.instance.targets.Remove(collision.transform);
             Destroy(collision.gameObject);
             score = score + 1;
         }

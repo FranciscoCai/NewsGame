@@ -14,9 +14,12 @@ public class CameraFollowBoats : MonoBehaviour
     public float zoomLimiter = 50f;
 
     private Vector3 velocity;
-
+    public static CameraFollowBoats instance;
     private Camera cam;
-
+    private void Awake()
+    {
+        instance = this;
+    }
     void Start()
     {
         cam = GetComponent<Camera>();
