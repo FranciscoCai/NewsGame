@@ -68,7 +68,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 2.75
+  m_Radius: 0.81
 --- !u!212 &8987788875042681383
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -384,7 +384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da755ff4606267842b12546456eaf558, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InitialVelocity: 0.5
+  InitialVelocity: 0.2
   SpaceMovement: {fileID: 5116093652145619564}
   layerMaskBarco:
     serializedVersion: 2
@@ -392,7 +392,7 @@ MonoBehaviour:
   layerMaskMover:
     serializedVersion: 2
     m_Bits: 128
-  Velocity: 0.5
+  Velocity: 0.2
 --- !u!70 &3564563854172605762
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

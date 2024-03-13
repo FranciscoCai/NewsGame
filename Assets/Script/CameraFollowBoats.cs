@@ -43,7 +43,7 @@ public class CameraFollowBoats : MonoBehaviour
 
     float GetGreatestDistance()
     {
-        var bounds = new Bounds(targets[0].position, Vector3.zero);
+        Bounds bounds = new Bounds(targets[0].position, Vector3.zero);
         for( int i = 0; i < targets.Count; i++)
         {
             bounds.Encapsulate(targets[i].position);
@@ -56,7 +56,7 @@ public class CameraFollowBoats : MonoBehaviour
         {
             return targets[0].position;
         }
-        var bounds = new Bounds(targets[0].position, Vector3.zero);
+        Bounds bounds = new Bounds(targets[0].position, Vector3.zero);
         for(int i = 0; i < targets.Count; i++)
         {
             bounds.Encapsulate(targets[i].position);
