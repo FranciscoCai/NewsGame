@@ -1,17 +1,31 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.FilePathAttribute;
+using static UnityEngine.GraphicsBuffer;
 
 public enum EstadoBarco
 {
     SeguirBarco, SeguirBallena, Independiente
 }
-public class Ballena : Movimiento
+public class Ballena : MonoBehaviour
 {
+    protected Rigidbody2D rb;
+    [SerializeField] protected float InitialVelocity;
     public EstadoBarco Estado;
     [SerializeField] private GameObject ObjetoASeguir;
     [SerializeField] private float TiempoDeEspera;
     private bool EstaEsperando = false;
+    private Camera camara;
+    private Renderer rend;
+    private bool movimientoIniciado = false;
+
+    private void Start()
+    {
+        rb = gameObject.GetComponent<Rigidbody2D>();
+        camara = GameObject.Find("Camara").GetComponent<Camera>();
+        rend = GetComponent<Renderer>();
+    }
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (Estado == EstadoBarco.SeguirBarco)
@@ -45,16 +59,23 @@ public class Ballena : Movimiento
     }
     private void Update()
     {
+        if (rend.isVisible && !movimientoIniciado)
+        {
+            // Marcar que el movimiento ha sido iniciado
+            movimientoIniciado = true;
+
+            // Empezar a moverse
+            rb.velocity = transform.up * InitialVelocity;
+        }
         if (ObjetoASeguir != null && Estado != EstadoBarco.SeguirBarco)
         {
             Vector2 direccion = (Vector2)ObjetoASeguir.transform.position - (Vector2)transform.position;
             direccion.Normalize();
-            rb.velocity = direccion * InitialVelocity;
+            transform.up = direccion;
         }
         if (EstaEsperando == false)
         {
-            float angle = Mathf.Atan2(rb.velocity.y, rb.velocity.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.AngleAxis(angle, Vector3.back);
+            transform.rotation = Quaternion.LookRotation(Vector3.forward, transform.up);
         }
     }
     private IEnumerator GiroAleatorio()
@@ -70,6 +91,7 @@ public class Ballena : Movimiento
         float velocityX = Mathf.Cos(radianAngle) * InitialVelocity;
         float velocityY = Mathf.Sin(radianAngle) * InitialVelocity;
         // Aplica la velocidad al Rigidbody2D
-        rb.velocity = new Vector2(velocityX, velocityY);
+        transform.up = new Vector2(velocityX, velocityY);
+        rb.velocity = transform.up * InitialVelocity;
     }
 }

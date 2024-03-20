@@ -30,11 +30,8 @@ public class Script : Movimiento
             {
                 Vector2 direccion = (clickPosition - (Vector2)transform.position).normalized;
                 float distancia = Vector2.Distance(transform.position, clickPosition);
-                rb.velocity = direccion * Mathf.Pow(2, distancia) * Velocity;
-
-                float angulo = Mathf.Atan2(direccion.y, direccion.x) * Mathf.Rad2Deg;
-                Quaternion rotacion = Quaternion.Euler(0f, 0f, angulo - 90);
-                transform.rotation = rotacion;
+                transform.up = direccion;
+                rb.velocity = transform.up * InitialVelocity* Mathf.Pow(2, distancia);
             }
         }
         else
