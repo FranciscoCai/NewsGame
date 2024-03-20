@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8667336965212784315}
   m_Layer: 0
   m_Name: 'Whale '
-  m_TagString: Whale
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -149,7 +149,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   whales: Whale
   boats: Boats
-  gameManager: {fileID: 0}
 --- !u!114 &3527219403451403234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,6 +164,10 @@ MonoBehaviour:
   InitialVelocity: 1
   Estado: 2
   ObjetoASeguir: {fileID: 0}
+  TiempoDeEspera: 0
+  mainCamera: {fileID: 0}
+  velocidad: 5
+  Jesus: {fileID: 0}
 --- !u!50 &8667336965212784315
 Rigidbody2D:
   serializedVersion: 4
