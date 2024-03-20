@@ -72,6 +72,7 @@ public class Ballena : MonoBehaviour
             Vector2 direccion = (Vector2)ObjetoASeguir.transform.position - (Vector2)transform.position;
             direccion.Normalize();
             transform.up = direccion;
+            rb.velocity = InitialVelocity*direccion*3;
         }
         if (EstaEsperando == false)
         {
