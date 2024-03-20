@@ -12,23 +12,6 @@ public class Ballena : Movimiento
     [SerializeField] private GameObject ObjetoASeguir;
     [SerializeField] private float TiempoDeEspera;
     private bool EstaEsperando = false;
-
-    public Camera mainCamera;
-    private Renderer rend;
-    private bool isVisible = false;
-    private bool movimientoIniciado = false;
-    public float velocidad = 5f;
-    public GameObject Jesus;
-    public Vector3 DireccionVelocidad;
-    private void Awake()
-    {
-        rb = gameObject.GetComponent<Rigidbody2D>();
-        rend = GetComponent<Renderer>();
-    }
-    new void Start()
-    {
-
-    }
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (Estado == EstadoBarco.SeguirBarco)
@@ -37,8 +20,6 @@ public class Ballena : Movimiento
         }
         else if (collision.gameObject.CompareTag("Boats"))
         {
-            GameObject instantiate =Instantiate(Jesus,gameObject.transform.position,Quaternion.identity);
-            instantiate.transform.parent = gameObject.transform;
             Estado = EstadoBarco.SeguirBarco;
             ObjetoASeguir = collision.gameObject;
             StartCoroutine(GiroAleatorio());
@@ -64,14 +45,7 @@ public class Ballena : Movimiento
     }
     private void Update()
     {
-        if (rend.isVisible && !movimientoIniciado)
-        {
-            // Marcar que el movimiento ha sido iniciado
-            movimientoIniciado = true;
-
-            rb.velocity = DireccionVelocidad * InitialVelocity;
-        }
-        else if (ObjetoASeguir != null && Estado != EstadoBarco.SeguirBarco)
+        if (ObjetoASeguir != null && Estado != EstadoBarco.SeguirBarco)
         {
             Vector2 direccion = (Vector2)ObjetoASeguir.transform.position - (Vector2)transform.position;
             direccion.Normalize();
@@ -80,7 +54,7 @@ public class Ballena : Movimiento
         if (EstaEsperando == false)
         {
             float angle = Mathf.Atan2(rb.velocity.y, rb.velocity.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.AngleAxis(angle-180, Vector3.back);
+            transform.rotation = Quaternion.AngleAxis(angle, Vector3.back);
         }
     }
     private IEnumerator GiroAleatorio()

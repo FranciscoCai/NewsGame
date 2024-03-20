@@ -28,8 +28,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.8, y: 1.8, z: 1.8}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6755559532933062891}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -68,7 +68,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 1.09
+  m_Radius: 1.4
 --- !u!212 &256830020468685377
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -286,10 +286,6 @@ MonoBehaviour:
   Estado: 2
   ObjetoASeguir: {fileID: 0}
   TiempoDeEspera: 3
-  mainCamera: {fileID: 0}
-  velocidad: 10
-  Jesus: {fileID: 530248119188052197, guid: 0e870e6c8bfaec6448c3c385360d1a4d, type: 3}
-  DireccionVelocidad: {x: 0, y: 0, z: 0}
 --- !u!50 &372024880456298323
 Rigidbody2D:
   serializedVersion: 4
