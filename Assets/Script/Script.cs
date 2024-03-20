@@ -42,7 +42,7 @@ public class Script : Movimiento
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag("Boats"))
+        if(collision.gameObject.CompareTag("Boats")||collision.gameObject.CompareTag("Pared"))
         {
             SceneManager.LoadScene("GameOver");
         }
