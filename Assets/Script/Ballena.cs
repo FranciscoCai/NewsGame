@@ -54,7 +54,7 @@ public class Ballena : Movimiento
         if (EstaEsperando == false)
         {
             float angle = Mathf.Atan2(rb.velocity.y, rb.velocity.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.AngleAxis(angle - 180, Vector3.forward);
+            transform.rotation = Quaternion.AngleAxis(angle, Vector3.back);
         }
     }
     private IEnumerator GiroAleatorio()

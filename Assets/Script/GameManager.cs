@@ -8,9 +8,9 @@ public class GameManager : MonoBehaviour
     public string Victory;
     public string GameOver;
     public Goal goal;
-    public bool winConditionTwo = false;
     public bool lose = false;
     public static GameManager instance;
+    public int puntosNecesarios;
 
     private void Awake()
     {
@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     }
     void Update()
     {
-        if(goal.winConditionOne == true && winConditionTwo == true)
+        if(goal.winConditionOne == true && puntosNecesarios == SystemaDePuntos.instance.puntos)
         {
             SceneManager.LoadScene(Victory);
         }
