@@ -11,13 +11,18 @@ public enum EstadoBarco
 public class Ballena : MonoBehaviour
 {
     protected Rigidbody2D rb;
-    [SerializeField] protected float InitialVelocity;
     public EstadoBarco Estado;
-    [SerializeField] private GameObject ObjetoASeguir;
-    [SerializeField] private float TiempoDeEspera;
-    private bool EstaEsperando = false;
+
     private Camera camara;
     private Renderer rend;
+
+    [SerializeField] private GameObject ObjetoASeguir;
+    [SerializeField] private LineaEmpty lineaDeSonido;
+
+    [SerializeField] protected float InitialVelocity;
+    [SerializeField] private float TiempoDeEspera;
+
+    private bool EstaEsperando = false;
     private bool movimientoIniciado = false;
 
     private void Start()
@@ -25,8 +30,9 @@ public class Ballena : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
         camara = GameObject.Find("Camara").GetComponent<Camera>();
         rend = GetComponent<Renderer>();
+
     }
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (Estado == EstadoBarco.SeguirBarco)
         {
@@ -35,8 +41,7 @@ public class Ballena : MonoBehaviour
         else if (collision.gameObject.CompareTag("Boats"))
         {
             Estado = EstadoBarco.SeguirBarco;
-            ObjetoASeguir = collision.gameObject;
-            StartCoroutine(GiroAleatorio());
+            lineaDeSonido.EfectoDestruir();
         }
         else if (Estado == EstadoBarco.SeguirBallena)
         {
@@ -85,14 +90,16 @@ public class Ballena : MonoBehaviour
         rb.velocity = Vector3.zero;
         yield return new WaitForSeconds(TiempoDeEspera);
         EstaEsperando = false;
-        float angle = Random.Range(0f, 360f);
+        Quaternion rotacionActual = transform.rotation;
+        float angleChange = Random.Range(90f, 270f);
+        Quaternion rotacionNueva = Quaternion.Euler(0, 0, rotacionActual.eulerAngles.z + angleChange);
         // Convierte el ¨¢ngulo a radianes
-        float radianAngle = angle * Mathf.Deg2Rad;
-        // Calcula las componentes x e y de la velocidad basadas en el ¨¢ngulo
-        float velocityX = Mathf.Cos(radianAngle) * InitialVelocity;
-        float velocityY = Mathf.Sin(radianAngle) * InitialVelocity;
-        // Aplica la velocidad al Rigidbody2D
-        transform.up = new Vector2(velocityX, velocityY);
+        transform.rotation = rotacionNueva;
         rb.velocity = transform.up * InitialVelocity;
     }
+    public void EmpezarCorutina()
+    {
+    StartCoroutine(GiroAleatorio());
+    }
+
 }

@@ -18,10 +18,6 @@ public class GameManager : MonoBehaviour
     }
     void Update()
     {
-        if(goal.winConditionOne == true && puntosNecesarios == SystemaDePuntos.instance.puntos)
-        {
-            SceneManager.LoadScene(Victory);
-        }
         if (lose == true)
         {
             SceneManager.LoadScene(GameOver);

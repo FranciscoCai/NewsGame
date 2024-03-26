@@ -12,7 +12,6 @@ public class Whales : MonoBehaviour
 
         if (collision.gameObject.CompareTag(whales))
         {
-            SystemaDePuntos.instance.SumarPuntos();
             Destroy(collision.gameObject);
         }
 
