@@ -29,9 +29,8 @@ public class Ballena : MonoBehaviour
     private void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-        camara = GameObject.Find("Camara").GetComponent<Camera>();
+        camara = CamaraFollowSize.instance.gameObject.GetComponent<Camera>();
         rend = GetComponent<Renderer>();
-
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
