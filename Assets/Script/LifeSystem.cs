@@ -17,13 +17,13 @@ public class LifeSystem : MonoBehaviour
     public void RestarVida()
     {
         int ultimaVIda = Vida.Count-1;
-        Image vida = Vida[ultimaVIda];
-        vida.sprite = vidaPerdida;
-        Vida.RemoveAt(ultimaVIda);
-        if(Vida.Count == 0 ) 
+        if (ultimaVIda == 0)
         {
             SceneManager.LoadScene("GameOver");
         }
+        Image vida = Vida[ultimaVIda];
+        vida.sprite = vidaPerdida;
+        Vida.RemoveAt(ultimaVIda);
     }
 
 }

@@ -8,7 +8,10 @@ public class LineaDeSonido : MonoBehaviour
 
     void FixedUpdate()
     {
-        gameObject.transform.position = ballenaASeguir.transform.position;
+        if (ballenaASeguir != null)
+        {
+            gameObject.transform.position = ballenaASeguir.transform.position;
+        }
     }
 
 }

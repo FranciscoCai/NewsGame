@@ -345,7 +345,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5361845489212179752, guid: c6e5f68287e02774e8a918d6b364d632, type: 3}
+  m_Sprite: {fileID: -2466429967818541932, guid: 1af60220fff58ee489f564cfba5f8471, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -372,15 +372,15 @@ RectTransform:
   m_GameObject: {fileID: 129152837}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.62, y: 0.62, z: 0.62}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1748638831}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -389, y: 425.99997}
-  m_SizeDelta: {x: 444, y: 209}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 111.5, y: -735}
+  m_SizeDelta: {x: 133, y: 126}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &182346785
 GameObject:
@@ -546,9 +546,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1748638831}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 410, y: 1122}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -140, y: -127}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &451224632
@@ -777,7 +777,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5361845489212179752, guid: c6e5f68287e02774e8a918d6b364d632, type: 3}
+  m_Sprite: {fileID: -2466429967818541932, guid: 1af60220fff58ee489f564cfba5f8471, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -804,15 +804,15 @@ RectTransform:
   m_GameObject: {fileID: 563907971}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.62, y: 0.62, z: 0.62}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1748638831}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -389, y: 597}
-  m_SizeDelta: {x: 444, y: 209}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 111, y: -532}
+  m_SizeDelta: {x: 132, y: 127}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &665725375
 PrefabInstance:
@@ -1234,7 +1234,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5361845489212179752, guid: c6e5f68287e02774e8a918d6b364d632, type: 3}
+  m_Sprite: {fileID: -2466429967818541932, guid: 1af60220fff58ee489f564cfba5f8471, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1261,15 +1261,15 @@ RectTransform:
   m_GameObject: {fileID: 1316079334}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.62, y: 0.62, z: 0.62}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1748638831}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -389, y: 758}
-  m_SizeDelta: {x: 444, y: 209}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 113.00006, y: -339}
+  m_SizeDelta: {x: 132, y: 126}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1322575920
 GameObject:
@@ -1583,7 +1583,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1080, y: 1920}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.538
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1651,7 +1651,7 @@ MonoBehaviour:
   - {fileID: 1316079335}
   - {fileID: 563907972}
   - {fileID: 129152838}
-  vidaPerdida: {fileID: 7808028151744729215, guid: cf0e6fb62c17a544f95deb201cea0201, type: 3}
+  vidaPerdida: {fileID: 9215448116296790479, guid: 1af60220fff58ee489f564cfba5f8471, type: 3}
 --- !u!114 &1748638833
 MonoBehaviour:
   m_ObjectHideFlags: 0

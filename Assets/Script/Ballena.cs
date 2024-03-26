@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using static UnityEditor.FilePathAttribute;
 using static UnityEngine.GraphicsBuffer;
@@ -62,14 +63,25 @@ public class Ballena : MonoBehaviour
         Estado = EstadoBarco.Independiente;
         ObjetoASeguir = null;
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        if (collision.gameObject.CompareTag("Whale"))
+        {
+            Destroy(lineaDeSonido.gameObject);
+            Destroy(gameObject);
+        }
+
+        if (collision.gameObject.CompareTag("Boats"))
+        {
+            GameManager.instance.lose = true;
+        }
+    }
     private void Update()
     {
         if (rend.isVisible && !movimientoIniciado)
         {
-            // Marcar que el movimiento ha sido iniciado
             movimientoIniciado = true;
-
-            // Empezar a moverse
             rb.velocity = transform.up * InitialVelocity;
         }
         if (ObjetoASeguir != null && Estado != EstadoBarco.SeguirBarco)
@@ -99,7 +111,7 @@ public class Ballena : MonoBehaviour
     }
     public void EmpezarCorutina()
     {
-    StartCoroutine(GiroAleatorio());
+        StartCoroutine(GiroAleatorio());
     }
 
 }

@@ -541,9 +541,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 216a7d180638ab84c8113df4463a8030, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InitialVelocity: 1
   Estado: 2
   ObjetoASeguir: {fileID: 0}
+  lineaDeSonido: {fileID: 0}
+  InitialVelocity: 1
+  TiempoDeEspera: 0
 --- !u!50 &1526781117
 Rigidbody2D:
   serializedVersion: 4
@@ -719,9 +721,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InitialVelocity: 1
   SpaceMovement: {fileID: 371776755}
-  layerMask:
+  layerMaskBarco:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
+  layerMaskMover:
+    serializedVersion: 2
+    m_Bits: 0
   Velocity: 1
 --- !u!212 &1538680455
 SpriteRenderer:
