@@ -20,7 +20,7 @@ public class Goal : MonoBehaviour
             CameraFollowBoats.instance.targets.Remove(collision.transform);
             Destroy(collision.gameObject);
             score = score + 1;
-            if (score <= scoreNeed)
+            if (score >= scoreNeed)
             {
                 SceneManager.LoadScene("Victory");
             }

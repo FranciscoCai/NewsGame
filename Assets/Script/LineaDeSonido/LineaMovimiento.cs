@@ -6,7 +6,13 @@ public class LineaMovimiento : MonoBehaviour
 {
     [SerializeField] private GameObject[] limites;
     [SerializeField] private float velocity;
+    [SerializeField] private float[] RangeVelocity;
+
     private bool directionState = true;
+    private void Start()
+    {
+        velocity = Random.Range(RangeVelocity[0], RangeVelocity[1]);
+    }
     private void FixedUpdate()
     {
 
