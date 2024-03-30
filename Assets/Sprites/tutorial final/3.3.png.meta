@@ -187,6 +187,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -872,7 +896,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      3.3_0: 4558731708318980190
+      3.3_1: 2020212486598199019
+      3.3_10: 5649435794127936594
+      3.3_11: 7477862523681537889
+      3.3_12: -7671632224384589230
+      3.3_13: -1020879401995439932
+      3.3_14: 8150686533636501946
+      3.3_15: 1025634783037111949
+      3.3_16: 1822511479083922037
+      3.3_17: -7479016355274181551
+      3.3_18: -5554591353516589458
+      3.3_19: -7094488474967091739
+      3.3_2: 2711368024602146138
+      3.3_20: 489134354307114727
+      3.3_21: -1608090521797809152
+      3.3_22: -2197615649756327421
+      3.3_23: 8967469627701670352
+      3.3_24: 411491968402426302
+      3.3_25: -3510239100575446903
+      3.3_26: -5603362247678517953
+      3.3_27: -5367571172821022101
+      3.3_28: 7496504019750318987
+      3.3_29: -5976973725359226794
+      3.3_3: -1458334174247306468
+      3.3_30: 1072878131922608544
+      3.3_31: -638375883557865916
+      3.3_4: -1184440563828019516
+      3.3_5: 124508110405313956
+      3.3_6: 1823023843268321937
+      3.3_7: -4301924538799520925
+      3.3_8: 1558293241386943928
+      3.3_9: -4141737544449737508
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

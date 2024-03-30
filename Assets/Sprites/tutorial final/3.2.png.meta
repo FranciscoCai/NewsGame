@@ -226,6 +226,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1184,7 +1208,52 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      3.2_0: -9096878385364656099
+      3.2_1: 6693704282540912811
+      3.2_10: -7211808570478974541
+      3.2_11: 8995069902650482769
+      3.2_12: -451462631277838467
+      3.2_13: -3917467512248903216
+      3.2_14: 7748805224585444713
+      3.2_15: 5727311628524707001
+      3.2_16: 4411477842243935174
+      3.2_17: -6404933370969758999
+      3.2_18: 218033056936244022
+      3.2_19: 3852396997828406844
+      3.2_2: 7665209557089819001
+      3.2_20: 4395334299313711151
+      3.2_21: 8746205673854883648
+      3.2_22: -9213138627014826643
+      3.2_23: -8572270419208605695
+      3.2_24: -2573074937940526775
+      3.2_25: -597210960331810182
+      3.2_26: -6767807614651011413
+      3.2_27: -3114446877457396887
+      3.2_28: 7661048914495257733
+      3.2_29: 8913526157970843906
+      3.2_3: 7484599362642321664
+      3.2_30: -7806567077858880864
+      3.2_31: -8080747015409659948
+      3.2_32: -687624544476946554
+      3.2_33: 3677724548752413195
+      3.2_34: -7262243555807455365
+      3.2_35: 3519411971756421124
+      3.2_36: 9198821777259839011
+      3.2_37: 1125362064094814340
+      3.2_38: 2915754558229704716
+      3.2_39: 5414854487800830095
+      3.2_4: 2817397422721537714
+      3.2_40: -1368514812180044015
+      3.2_41: 7106905845754023300
+      3.2_42: -5299961724298452559
+      3.2_43: -8318114659094810364
+      3.2_44: -6331585863640769827
+      3.2_5: 2576126377364289140
+      3.2_6: -5097838257551995268
+      3.2_7: -7357605977851892841
+      3.2_8: -5213075698136545080
+      3.2_9: 9162083712018786986
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

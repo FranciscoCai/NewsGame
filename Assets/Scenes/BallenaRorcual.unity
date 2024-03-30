@@ -338,6 +338,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParejaBallena 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5500806525566133931, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 824db50fc9c275247ba55586e53d91aa, type: 3}
     - target: {fileID: 6383014582345649665, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
       propertyPath: m_Color.b
       value: 0.4811321
@@ -414,6 +418,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.38354397
       objectReference: {fileID: 0}
+    - target: {fileID: 8134516872202139877, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 824db50fc9c275247ba55586e53d91aa, type: 3}
     - target: {fileID: 8226542201218423002, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.31301135
@@ -698,6 +706,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParejaBallena 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5500806525566133931, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 824db50fc9c275247ba55586e53d91aa, type: 3}
     - target: {fileID: 6383014582345649665, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
       propertyPath: m_Color.b
       value: 0.4811321
@@ -774,6 +786,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.38354397
       objectReference: {fileID: 0}
+    - target: {fileID: 8134516872202139877, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 824db50fc9c275247ba55586e53d91aa, type: 3}
     - target: {fileID: 8226542201218423002, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.31301135
@@ -1041,6 +1057,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParejaBallena 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5500806525566133931, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 824db50fc9c275247ba55586e53d91aa, type: 3}
     - target: {fileID: 6383014582345649665, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
       propertyPath: m_Color.b
       value: 0.4811321
@@ -1117,6 +1137,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.38354397
       objectReference: {fileID: 0}
+    - target: {fileID: 8134516872202139877, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 824db50fc9c275247ba55586e53d91aa, type: 3}
     - target: {fileID: 8226542201218423002, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.31301135
@@ -1793,6 +1817,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParejaBallena 5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5500806525566133931, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 824db50fc9c275247ba55586e53d91aa, type: 3}
     - target: {fileID: 6383014582345649665, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
       propertyPath: m_Color.b
       value: 0.4811321
@@ -1869,6 +1897,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.38354397
       objectReference: {fileID: 0}
+    - target: {fileID: 8134516872202139877, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 824db50fc9c275247ba55586e53d91aa, type: 3}
     - target: {fileID: 8226542201218423002, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.31301135
@@ -2348,6 +2380,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParejaBallena 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5500806525566133931, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 824db50fc9c275247ba55586e53d91aa, type: 3}
     - target: {fileID: 6383014582345649665, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
       propertyPath: m_Color.b
       value: 0.4811321
@@ -2424,6 +2460,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.38354397
       objectReference: {fileID: 0}
+    - target: {fileID: 8134516872202139877, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 824db50fc9c275247ba55586e53d91aa, type: 3}
     - target: {fileID: 8226542201218423002, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.31301135
@@ -2830,6 +2870,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParejaBallena 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5500806525566133931, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 824db50fc9c275247ba55586e53d91aa, type: 3}
     - target: {fileID: 6383014582345649665, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
       propertyPath: m_Color.b
       value: 0.4811321
@@ -2886,6 +2930,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.38354397
       objectReference: {fileID: 0}
+    - target: {fileID: 8134516872202139877, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 824db50fc9c275247ba55586e53d91aa, type: 3}
     - target: {fileID: 8226542201218423002, guid: b31979c1af8fe964284435b9afe4daf3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.31301135
