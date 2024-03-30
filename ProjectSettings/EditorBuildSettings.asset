@@ -29,5 +29,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BallenaRorcual.unity
     guid: a557f75b69699304a8e1c789d71698f4
+  - enabled: 1
+    path: Assets/Scenes/Play.unity
+    guid: 329d408862d677947af6f76cfb926036
+  - enabled: 1
+    path: Assets/Scenes/Cinematica.unity
+    guid: 52bd60ce63d088746ac320ccea09341c
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

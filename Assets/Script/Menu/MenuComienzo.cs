@@ -9,6 +9,7 @@ public class MenuComienzo : MonoBehaviour
     [SerializeField] private string N_BallenaAzul;
     [SerializeField] private string N_BallenaJorobada;
     [SerializeField] private string N_BallenaRorcual;
+    [SerializeField] private string N_Cinematica;
     [SerializeField] private string N_Tutorial;
     [SerializeField] private string N_Resume;
     [SerializeField] private string N_Restart;
@@ -26,6 +27,10 @@ public class MenuComienzo : MonoBehaviour
     {
         SceneController.Instance.SceneToLoad = N_BallenaRorcual;
         SceneManager.LoadScene(N_Tutorial);
+    }
+    public void Cinematica()
+    {
+        SceneManager.LoadScene(N_Cinematica);
     }
     public void Resume()
     {
