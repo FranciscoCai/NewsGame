@@ -15,10 +15,11 @@ public class Ballena : MonoBehaviour
     public EstadoBarco Estado;
 
     private Camera camara;
-    private Renderer rend;
+    [SerializeField]  private Renderer rend;
 
     [SerializeField] private GameObject ObjetoASeguir;
     [SerializeField] private LineaEmpty lineaDeSonido;
+    [SerializeField] private GameObject Mareo;
 
     [SerializeField] protected float InitialVelocity;
     [SerializeField] private float TiempoDeEspera;
@@ -30,7 +31,6 @@ public class Ballena : MonoBehaviour
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         camara = CamaraFollowSize.instance.gameObject.GetComponent<Camera>();
-        rend = GetComponent<Renderer>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -97,6 +97,8 @@ public class Ballena : MonoBehaviour
     }
     private IEnumerator GiroAleatorio()
     {
+        GameObject mareo = Instantiate(Mareo,gameObject.transform.position, Quaternion.identity);
+        mareo.transform.parent = gameObject.transform;
         EstaEsperando = true;
         rb.velocity = Vector3.zero;
         yield return new WaitForSeconds(TiempoDeEspera);

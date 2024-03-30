@@ -845,8 +845,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Estado: 2
+  rend: {fileID: 8164958696921520094}
   ObjetoASeguir: {fileID: 0}
   lineaDeSonido: {fileID: 3052468309782984571}
+  Mareo: {fileID: 2771184273517480767, guid: 759c0717edf6a61488d9759a8a483ed8, type: 3}
   InitialVelocity: 0.05
   TiempoDeEspera: 3
 --- !u!1 &3774462727293176220
@@ -1072,8 +1074,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Estado: 2
+  rend: {fileID: 3627866796328650621}
   ObjetoASeguir: {fileID: 0}
   lineaDeSonido: {fileID: 3052468309782984571}
+  Mareo: {fileID: 2771184273517480767, guid: 759c0717edf6a61488d9759a8a483ed8, type: 3}
   InitialVelocity: 0.05
   TiempoDeEspera: 3
 --- !u!1 &4628923527344576256
@@ -1730,6 +1734,7 @@ GameObject:
   - component: {fileID: 1105047023288789236}
   - component: {fileID: 8164958696921520094}
   - component: {fileID: 8005406594119373693}
+  - component: {fileID: 8377217784043328402}
   m_Layer: 0
   m_Name: Ondas
   m_TagString: Whale
@@ -1839,7 +1844,29 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 1.02
+  m_Radius: 0.78
+--- !u!95 &8377217784043328402
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7900970117241744527}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 475dd7d3c9c6dc14fa55841199811ea4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8213110101980963560
 GameObject:
   m_ObjectHideFlags: 0
@@ -2023,6 +2050,7 @@ GameObject:
   - component: {fileID: 5035805469644640119}
   - component: {fileID: 3627866796328650621}
   - component: {fileID: 1448109645612324111}
+  - component: {fileID: 6361199778148191857}
   m_Layer: 0
   m_Name: Ondas
   m_TagString: Whale
@@ -2132,7 +2160,29 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 1.17
+  m_Radius: 0.78
+--- !u!95 &6361199778148191857
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8688377560417485812}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 475dd7d3c9c6dc14fa55841199811ea4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8990613930022923451
 GameObject:
   m_ObjectHideFlags: 0
