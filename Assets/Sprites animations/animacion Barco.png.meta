@@ -1,0 +1,638 @@
+fileFormatVersion: 2
+guid: 4ed58d14bae44e141bdec570bcbe897b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5436743542993564376
+    second: animacion Barco_0
+  - first:
+      213: -4197235171122109978
+    second: animacion Barco_1
+  - first:
+      213: -4492202564093630329
+    second: animacion Barco_2
+  - first:
+      213: 6529936073834805911
+    second: animacion Barco_3
+  - first:
+      213: 5826032896418334029
+    second: animacion Barco_4
+  - first:
+      213: -7070440190446149683
+    second: animacion Barco_5
+  - first:
+      213: -6983484551461303048
+    second: animacion Barco_6
+  - first:
+      213: 2363979456561425313
+    second: animacion Barco_7
+  - first:
+      213: -2773065533763474887
+    second: animacion Barco_8
+  - first:
+      213: -4513622396887454157
+    second: animacion Barco_9
+  - first:
+      213: 1370368235694723011
+    second: animacion Barco_10
+  - first:
+      213: 3665504119142918893
+    second: animacion Barco_11
+  - first:
+      213: -5306595343071774405
+    second: animacion Barco_12
+  - first:
+      213: -8969896329028132763
+    second: animacion Barco_13
+  - first:
+      213: 1256576864901549537
+    second: animacion Barco_14
+  - first:
+      213: 480620040189885169
+    second: animacion Barco_15
+  - first:
+      213: 6588462399435214266
+    second: animacion Barco_16
+  - first:
+      213: -6481811315737194467
+    second: animacion Barco_17
+  - first:
+      213: -6123872019188538154
+    second: animacion Barco_18
+  - first:
+      213: 1536347194387688303
+    second: animacion Barco_19
+  - first:
+      213: 3956335136017027704
+    second: animacion Barco_20
+  - first:
+      213: -7456251527928482903
+    second: animacion Barco_21
+  - first:
+      213: 6803607980882041433
+    second: animacion Barco_22
+  - first:
+      213: 1896396124659771356
+    second: animacion Barco_23
+  - first:
+      213: 364695724228939499
+    second: animacion Barco_24
+  - first:
+      213: -2436726009554483071
+    second: animacion Barco_25
+  - first:
+      213: -3603839897638035649
+    second: animacion Barco_26
+  - first:
+      213: -1762433195752982529
+    second: animacion Barco_27
+  - first:
+      213: -40885455130911350
+    second: animacion Barco_28
+  - first:
+      213: -7197631046228398909
+    second: animacion Barco_29
+  - first:
+      213: 1084319759845604779
+    second: animacion Barco_30
+  - first:
+      213: 8749966654343644958
+    second: animacion Barco_31
+  - first:
+      213: -1333824047327606092
+    second: animacion Barco_32
+  - first:
+      213: 1355293369163418936
+    second: animacion Barco_33
+  - first:
+      213: -5516248472100173532
+    second: animacion Barco_34
+  - first:
+      213: -2194736576845101752
+    second: animacion Barco_35
+  - first:
+      213: -2173211530690874087
+    second: animacion Barco_36
+  - first:
+      213: 3060741409840255607
+    second: animacion Barco_37
+  - first:
+      213: -8453095040172204639
+    second: animacion Barco_38
+  - first:
+      213: 6266748273341176648
+    second: animacion Barco_39
+  - first:
+      213: 7307399757744143745
+    second: animacion Barco_40
+  - first:
+      213: 1688193411209641955
+    second: animacion Barco_41
+  - first:
+      213: 8680221169060754079
+    second: animacion Barco_42
+  - first:
+      213: 328870627182486052
+    second: animacion Barco_43
+  - first:
+      213: 8398016170590266285
+    second: animacion Barco_44
+  - first:
+      213: 3633794399684368700
+    second: animacion Barco_45
+  - first:
+      213: -2950796435192127735
+    second: animacion Barco_46
+  - first:
+      213: -4707914705294555948
+    second: animacion Barco_47
+  - first:
+      213: -3741621453064200578
+    second: animacion Barco_48
+  - first:
+      213: -6752476843245099854
+    second: animacion Barco_49
+  - first:
+      213: 1941083185741153361
+    second: animacion Barco_50
+  - first:
+      213: 7049877580488031925
+    second: animacion Barco_51
+  - first:
+      213: -2248950357570622890
+    second: animacion Barco_52
+  - first:
+      213: 7800214405046277025
+    second: animacion Barco_53
+  - first:
+      213: 4576623316316441530
+    second: animacion Barco_54
+  - first:
+      213: -4460155374047101878
+    second: animacion Barco_55
+  - first:
+      213: -2942778432686737993
+    second: animacion Barco_56
+  - first:
+      213: 6116944371964898651
+    second: animacion Barco_57
+  - first:
+      213: -8508139914559818919
+    second: animacion Barco_58
+  - first:
+      213: 3251715074834239975
+    second: animacion Barco_59
+  - first:
+      213: -20484989799666482
+    second: animacion Barco_60
+  - first:
+      213: -4967544602026495246
+    second: animacion Barco_61
+  - first:
+      213: 3757326583261719785
+    second: animacion Barco_62
+  - first:
+      213: -703671226132306618
+    second: animacion Barco_63
+  - first:
+      213: -7537745111823129997
+    second: animacion Barco_64
+  - first:
+      213: 7930943435861138587
+    second: animacion Barco_65
+  - first:
+      213: 7020162964948993393
+    second: animacion Barco_66
+  - first:
+      213: 8354900671930578328
+    second: animacion Barco_67
+  - first:
+      213: -6282082459500287995
+    second: animacion Barco_68
+  - first:
+      213: -7347740673209757392
+    second: animacion Barco_69
+  - first:
+      213: -184017963079908132
+    second: animacion Barco_70
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1900
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animacion Barco_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 321
+        width: 703
+        height: 2706
+      alignment: 9
+      pivot: {x: 0.4939466, y: 0.6714136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8263b0367e22c1d4d9e0c7ab96e8627d
+      internalID: 1168576591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacion Barco_2
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 359
+        width: 703
+        height: 2706
+      alignment: 9
+      pivot: {x: 0.4939466, y: 0.6714136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0ca6119cf5fcc48a053da1cdc17700
+      internalID: -1103957745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacion Barco_3
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 362
+        width: 703
+        height: 2706
+      alignment: 9
+      pivot: {x: 0.4939466, y: 0.6714136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41c05afc2a2fcf49a71a11daf9b810a
+      internalID: 677281993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacion Barco_4
+      rect:
+        serializedVersion: 2
+        x: 2178
+        y: 368
+        width: 703
+        height: 2706
+      alignment: 9
+      pivot: {x: 0.4939466, y: 0.6714136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93e09fb876ef2d49805ced61b89871a
+      internalID: 1026415391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacion Barco_5
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 355
+        width: 703
+        height: 2706
+      alignment: 9
+      pivot: {x: 0.4939466, y: 0.6714136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231fc71da18ced34d97c0a36d43f0188
+      internalID: -281456476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacion Barco_6
+      rect:
+        serializedVersion: 2
+        x: 3596
+        y: 365
+        width: 703
+        height: 2706
+      alignment: 9
+      pivot: {x: 0.4939466, y: 0.6714136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fe33733dd4b2a4a8dde8cbdac2cd4b
+      internalID: 1441789137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacion Barco_7
+      rect:
+        serializedVersion: 2
+        x: 4298
+        y: 389
+        width: 703
+        height: 2706
+      alignment: 9
+      pivot: {x: 0.4939466, y: 0.6714136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ee67e0d78be664ba681154e451d969
+      internalID: 1565912325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacion Barco_8
+      rect:
+        serializedVersion: 2
+        x: 4996
+        y: 391
+        width: 703
+        height: 2706
+      alignment: 9
+      pivot: {x: 0.4939466, y: 0.6714136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b937d86f03fedf45bbb72c262df6e48
+      internalID: 974612110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacion Barco_9
+      rect:
+        serializedVersion: 2
+        x: 5725
+        y: 396
+        width: 703
+        height: 2706
+      alignment: 9
+      pivot: {x: 0.4939466, y: 0.6714136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73f03338f14989439e0b911877bdc3e
+      internalID: -1449783916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacion Barco_10
+      rect:
+        serializedVersion: 2
+        x: 6420
+        y: 410
+        width: 703
+        height: 2706
+      alignment: 9
+      pivot: {x: 0.4939466, y: 0.6714136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a4c41fb5076b641968d60327a8a406
+      internalID: 263663079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacion Barco_11
+      rect:
+        serializedVersion: 2
+        x: 7123
+        y: 410
+        width: 703
+        height: 2706
+      alignment: 9
+      pivot: {x: 0.4939466, y: 0.6714136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d584ae1e447b63b42b29d8ee8d73b7e3
+      internalID: -1351683017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animacion Barco_13
+      rect:
+        serializedVersion: 2
+        x: 7820
+        y: 382
+        width: 703
+        height: 2706
+      alignment: 9
+      pivot: {x: 0.4939466, y: 0.6714136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94efef88bf5bbc64ba50f8147a686918
+      internalID: 1473733662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fbfc3868dae252c469003d552a690a24
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      animacion Barco_0: -620638170
+      animacion Barco_1: 1168576591
+      animacion Barco_10: 263663079
+      animacion Barco_11: -1351683017
+      animacion Barco_12: -177299907
+      animacion Barco_13: 1473733662
+      animacion Barco_14: 1555106669
+      animacion Barco_15: 1050529421
+      animacion Barco_16: 6452163
+      animacion Barco_17: -1675561700
+      animacion Barco_18: 147332966
+      animacion Barco_19: 828531685
+      animacion Barco_2: -1103957745
+      animacion Barco_20: -251829154
+      animacion Barco_21: 872748725
+      animacion Barco_22: -249401393
+      animacion Barco_23: -470551539
+      animacion Barco_24: 1743851415
+      animacion Barco_25: 2050282397
+      animacion Barco_26: 1730605654
+      animacion Barco_27: 118840492
+      animacion Barco_28: -1320025341
+      animacion Barco_29: 1187660246
+      animacion Barco_3: 677281993
+      animacion Barco_30: -1998837507
+      animacion Barco_31: 749623959
+      animacion Barco_32: 1666385013
+      animacion Barco_33: -488807616
+      animacion Barco_34: 1716288049
+      animacion Barco_35: 1916562127
+      animacion Barco_36: -1127398627
+      animacion Barco_4: 1026415391
+      animacion Barco_5: -281456476
+      animacion Barco_6: 1441789137
+      animacion Barco_7: 1565912325
+      animacion Barco_8: 974612110
+      animacion Barco_9: -1449783916
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
