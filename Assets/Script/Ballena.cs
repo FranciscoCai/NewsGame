@@ -14,7 +14,6 @@ public class Ballena : MonoBehaviour
     protected Rigidbody2D rb;
     public EstadoBarco Estado;
 
-    private Camera camara;
     [SerializeField]  private Renderer rend;
 
     [SerializeField] private GameObject ObjetoASeguir;
@@ -30,7 +29,6 @@ public class Ballena : MonoBehaviour
     private void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-        camara = CamaraFollowSize.instance.gameObject.GetComponent<Camera>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
