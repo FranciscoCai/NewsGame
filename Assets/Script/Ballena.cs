@@ -22,7 +22,7 @@ public class Ballena : MonoBehaviour
 
     [SerializeField] protected float InitialVelocity;
     [SerializeField] private float TiempoDeEspera;
-
+    [SerializeField] private GameObject Corazon;
     private bool EstaEsperando = false;
     private bool movimientoIniciado = false;
 
@@ -65,6 +65,10 @@ public class Ballena : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Whale"))
         {
+            if (Corazon != null)
+            {
+                Instantiate(Corazon, collision.contacts[0].point, Quaternion.identity);
+            }
             Destroy(lineaDeSonido.gameObject);
             Destroy(gameObject);
         }

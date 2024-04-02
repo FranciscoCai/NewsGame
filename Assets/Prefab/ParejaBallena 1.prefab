@@ -852,6 +852,7 @@ MonoBehaviour:
   Mareo: {fileID: 2771184273517480767, guid: 759c0717edf6a61488d9759a8a483ed8, type: 3}
   InitialVelocity: 0.05
   TiempoDeEspera: 3
+  Corazon: {fileID: 0}
 --- !u!82 &8134516872202139877
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1178,6 +1179,7 @@ MonoBehaviour:
   Mareo: {fileID: 2771184273517480767, guid: 759c0717edf6a61488d9759a8a483ed8, type: 3}
   InitialVelocity: 0.05
   TiempoDeEspera: 3
+  Corazon: {fileID: 2771184273517480767, guid: 759c0717edf6a61488d9759a8a483ed8, type: 3}
 --- !u!82 &5500806525566133931
 AudioSource:
   m_ObjectHideFlags: 0
