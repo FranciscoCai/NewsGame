@@ -61,5 +61,9 @@ public class Script : Movimiento
         {
             SceneManager.LoadScene("GameOver");
         }
+        if (collision.gameObject.CompareTag("Boats"))
+        {
+            SceneManager.LoadScene("GameOver");
+        }
     }
 }
