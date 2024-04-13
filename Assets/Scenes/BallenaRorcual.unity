@@ -251,7 +251,7 @@ MonoBehaviour:
   - {fileID: 78416516}
   - {fileID: 1812036435}
   - {fileID: 467347124}
-  minSize: 8
+  minSize: 7
   maxSize: 100
   paddingDistance: 1.2
   padding: 2
@@ -520,7 +520,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3627422780999716415, guid: 7be849c7d4fca5943b8cb768aa84baeb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.61
+      value: -1.86
       objectReference: {fileID: 0}
     - target: {fileID: 3627422780999716415, guid: 7be849c7d4fca5943b8cb768aa84baeb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1350,7 +1350,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3627422780999716415, guid: 7be849c7d4fca5943b8cb768aa84baeb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.07
+      value: -1.35
       objectReference: {fileID: 0}
     - target: {fileID: 3627422780999716415, guid: 7be849c7d4fca5943b8cb768aa84baeb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3493,7 +3493,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3627422780999716415, guid: 7be849c7d4fca5943b8cb768aa84baeb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.21
+      value: 1.79
       objectReference: {fileID: 0}
     - target: {fileID: 3627422780999716415, guid: 7be849c7d4fca5943b8cb768aa84baeb, type: 3}
       propertyPath: m_LocalPosition.y
