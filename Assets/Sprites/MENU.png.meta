@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: b663d7a3e332512459a2d8daec25c3c5
+guid: 48aa41cd1dbbedd44b7dfd77318bd2d7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8582036084996708833
-    second: Facil_0
+      213: -7440872903670877268
+    second: MENU_0
+  - first:
+      213: 187662899997090683
+    second: MENU_1
+  - first:
+      213: -8584973239706953993
+    second: MENU_2
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -37,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -94,29 +100,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Facil_0
+      name: MENU_0
       rect:
         serializedVersion: 2
-        x: 200
-        y: 695
-        width: 2327
-        height: 1133
+        x: 150
+        y: 994
+        width: 560
+        height: 227
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +118,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f16ef2876ab76e880800000000000000
-      internalID: -8582036084996708833
+      spriteID: ca33edd7485bcb890800000000000000
+      internalID: -7440872903670877268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 586
+        width: 569
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73a8dbc966ba9200800000000000000
+      internalID: 187662899997090683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MENU_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 193
+        width: 569
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f65809d25c0cd880800000000000000
+      internalID: -8584973239706953993
       vertices: []
       indices: 
       edges: []
@@ -141,7 +177,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Facil_0: -8582036084996708833
+      MENU_0: -7440872903670877268
+      MENU_1: 187662899997090683
+      MENU_2: -8584973239706953993
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
