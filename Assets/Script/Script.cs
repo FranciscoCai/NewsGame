@@ -1,8 +1,10 @@
 using NUnit;
+using System.Collections;
 using System.Net;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using static System.Net.WebRequestMethods;
 
 public class Script : Movimiento
 {
@@ -10,6 +12,9 @@ public class Script : Movimiento
     [SerializeField] private LayerMask layerMaskBarco;
     [SerializeField] private LayerMask layerMaskMover;
     [SerializeField] private float Velocity;
+    [SerializeField] private float acceleration = 5f;      // Unidades por segundo^2
+    [SerializeField] private float angularSpeed = 180f;    // Grados por segundo
+    private Coroutine ChangeDirectionVelocityCoroutine;
     private void OnMouseDown()
     {
         Vector2 clickPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -24,6 +29,11 @@ public class Script : Movimiento
     }
     private void OnMouseUp()
     {
+        if(ChangeDirectionVelocityCoroutine != null)
+        {
+            StopCoroutine(ChangeDirectionVelocityCoroutine);
+            ChangeDirectionVelocityCoroutine = null;
+        }
         Vector2 clickPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
         RaycastHit2D hit = Physics2D.Raycast(clickPosition, Vector2.zero, Mathf.Infinity, layerMaskMover);
@@ -33,8 +43,7 @@ public class Script : Movimiento
             {
                 Vector2 direccion = (clickPosition - (Vector2)transform.position).normalized;
                 float distancia = Vector2.Distance(transform.position, clickPosition);
-                transform.up = direccion;
-                rb.velocity = transform.up * InitialVelocity* Mathf.Pow(2, distancia);
+                ChangeDirectionVelocityCoroutine = StartCoroutine(ChangeDirectionVelocity(direccion, InitialVelocity * Mathf.Pow(2, distancia)));
             }
         }
         else
@@ -48,12 +57,53 @@ public class Script : Movimiento
                 {
                     Vector2 direccion = (hitP.point - (Vector2)transform.position).normalized;
                     float distancia = Vector2.Distance(transform.position, hitP.point);
-                    transform.up = direccion;
-                    rb.velocity = transform.up * InitialVelocity * Mathf.Pow(2, distancia);
+                    ChangeDirectionVelocityCoroutine = StartCoroutine(ChangeDirectionVelocity(direccion,InitialVelocity * Mathf.Pow(2, distancia)));
                 }
             }
         }
         SpaceMovement.SetActive(false);
+    }
+    private IEnumerator ChangeDirectionVelocity(Vector2 finalDirection, float finalSpeed)
+    {
+        finalDirection.Normalize();
+        float currentSpeed = rb.velocity.magnitude;
+        Vector2 currentDirection = rb.velocity.sqrMagnitude > 0.01f ? rb.velocity.normalized : transform.up;
+
+        while (true)
+        {
+
+            float speedDelta = finalSpeed - currentSpeed;
+            float maxSpeedChange = acceleration * Time.deltaTime;
+            if (Mathf.Abs(speedDelta) > maxSpeedChange)
+                currentSpeed += Mathf.Sign(speedDelta) * maxSpeedChange;
+            else
+                currentSpeed = finalSpeed;
+
+
+            float angle = Vector2.SignedAngle(currentDirection, finalDirection);
+            float maxAngleChange = angularSpeed * Time.deltaTime;
+            if (Mathf.Abs(angle) > maxAngleChange)
+                angle = Mathf.Sign(angle) * maxAngleChange;
+
+            currentDirection = Quaternion.Euler(0, 0, angle) * currentDirection;
+            currentDirection.Normalize();
+
+
+
+            rb.velocity = currentDirection * currentSpeed;
+            transform.up = currentDirection;
+
+
+
+            if (Mathf.Approximately(currentSpeed, finalSpeed) && Vector2.Angle(currentDirection, finalDirection) < 0.5f)
+                break;
+
+            yield return null;
+        }
+
+
+        rb.velocity = finalDirection * finalSpeed;
+        transform.up = finalDirection;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

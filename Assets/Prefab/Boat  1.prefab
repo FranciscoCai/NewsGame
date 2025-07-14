@@ -417,6 +417,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   Velocity: 0.2
+  acceleration: 0.75
+  angularSpeed: 10
 --- !u!70 &3564563854172605762
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
