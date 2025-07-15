@@ -24,6 +24,7 @@ public class Script : Movimiento
         { return; }
         if (hit.collider.gameObject == this.gameObject)
         {
+            Handheld.Vibrate();
             SpaceMovement.SetActive(true);
         }
     }
@@ -41,6 +42,7 @@ public class Script : Movimiento
         {
             if (hit.collider.gameObject == SpaceMovement)
             {
+                Handheld.Vibrate();
                 Vector2 direccion = (clickPosition - (Vector2)transform.position).normalized;
                 float distancia = Vector2.Distance(transform.position, clickPosition);
                 ChangeDirectionVelocityCoroutine = StartCoroutine(ChangeDirectionVelocity(direccion, InitialVelocity * Mathf.Pow(2, distancia)));
@@ -52,6 +54,7 @@ public class Script : Movimiento
             RaycastHit2D hitP = Physics2D.Raycast(clickPosition, direction, Mathf.Infinity, layerMaskMover);
             if (hitP.collider != null)
             {
+                Handheld.Vibrate();
                 // Verificar si el rayo golpea el objeto final
                 if (hitP.collider.gameObject == SpaceMovement)
                 {
