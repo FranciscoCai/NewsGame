@@ -8,6 +8,7 @@ TagManager:
   - Goal
   - Whale
   - Pared
+  - Lifes
   layers:
   - Default
   - TransparentFX

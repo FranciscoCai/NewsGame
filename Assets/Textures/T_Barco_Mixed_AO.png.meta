@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T_Barco_Mixed_AO_0: 2331799844183025021
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

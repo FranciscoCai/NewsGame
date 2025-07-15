@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T_Barco_Roughness_0: -5673227519311293244
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

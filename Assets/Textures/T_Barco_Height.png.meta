@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T_Barco_Height_0: -8867812479151983945
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

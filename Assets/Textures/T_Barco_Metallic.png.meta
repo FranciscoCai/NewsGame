@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T_Barco_Metallic_0: 2013017052583538702
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
