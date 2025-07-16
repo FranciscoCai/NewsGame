@@ -64,7 +64,7 @@ public class TutorialManager : MonoBehaviour
 
         if (ondas != null) ondas.SetActive(false);
 
-        ShowMessage("TÚ CONTROLAS LOS BARCOS");
+        ShowMessage("CONTROLAS A LOS BARCOS");
         foreach (var barco in barcos)
         {
             Coroutine c = StartCoroutine(LoopFlashAndPulse3D(barco));

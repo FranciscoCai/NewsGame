@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuComienzo : MonoBehaviour
 {
-
+    public Menu menu;
     [SerializeField] private string N_BallenaAzul;
     [SerializeField] private string N_BallenaJorobada;
     [SerializeField] private string N_BallenaRorcual;
@@ -13,6 +13,15 @@ public class MenuComienzo : MonoBehaviour
     [SerializeField] private string N_Tutorial;
     [SerializeField] private string N_Resume;
     [SerializeField] private string N_Restart;
+
+    void Start()
+    {
+        if (menu == null)
+        {
+            menu = FindObjectOfType<Menu>();
+        }
+    }
+
     public void BallenaAzul()
     {
         SceneController.Instance.SceneToLoad = N_BallenaAzul;
@@ -34,7 +43,7 @@ public class MenuComienzo : MonoBehaviour
     }
     public void Resume()
     {
-        SceneManager.LoadScene(N_Resume);
+       menu.Pausa();
     }
     public void Restart()
     {

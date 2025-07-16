@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Menu : MonoBehaviour
 {
-    private bool pausa = false;
+    public bool pausa = false;
     [SerializeField] private GameObject[] GameObjectToActive;
     public void Pausa()
     {

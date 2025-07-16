@@ -562,6 +562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74bc92d001db1f04da863528856d3b21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  menu: {fileID: 384934209}
   N_BallenaAzul: 
   N_BallenaJorobada: 
   N_BallenaRorcual: 
@@ -581,6 +582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac1c0d8f9cbaeec4baea2ecd83f40986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pausa: 0
   GameObjectToActive:
   - {fileID: 1678853914}
   - {fileID: 1901592182}
